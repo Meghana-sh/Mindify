@@ -85,40 +85,7 @@ npm run dev
 
 The frontend application will run on `http://localhost:3000`
 
-## 📁 Project Structure
-
-```
-MindApp/
-├── backend/                    # Backend server
-│   ├── config/                # Database configuration
-│   ├── migrations/            # Database migrations
-│   ├── models/                # Sequelize models
-│   ├── src/
-│   │   ├── controllers/       # Request handlers
-│   │   ├── middleware/        # Authentication middleware
-│   │   ├── routes/            # API routes
-│   │   └── app.js            # Express app entry point
-│   ├── .env                   # Environment variables
-│   └── package.json
-│
-├── medapp/                    # Frontend Next.js app
-│   ├── app/
-│   │   ├── api/              # API route handlers
-│   │   ├── components/       # React components
-│   │   ├── context/          # Context providers
-│   │   ├── services/         # API service layer
-│   │   ├── login/            # Login page
-│   │   ├── signup/           # Signup page
-│   │   ├── tracker/          # Mood tracker page
-│   │   └── history/          # Mood history page
-│   ├── lib/                  # Utility functions
-│   ├── public/               # Static assets
-│   └── package.json
-│
-└── README.md
-```
-
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - Register new user
@@ -170,28 +137,6 @@ MindApp/
 - entry_date
 - createdAt
 - updatedAt
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the ISC License.
-
-## 👥 Authors
-
-- Meghana SH - [GitHub](https://github.com/Meghana-sh)
-
-## 🙏 Acknowledgments
-
-- Built with Next.js and Express.js
-- UI inspiration from modern mental health apps
-- Icons and emojis for mood representation
-
-## 📞 Support
-
-For support, email your-email@example.com or open an issue on GitHub.
 
 ---
 
